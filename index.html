@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            background-image:url('./img.jpg');
+        }
+        div.main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .l,.r{
+            font-weight: bold;
+            font-size: large;
+            background-color: aqua;
+            border-radius: 10px;
+            height: 500px;
+            
+        }
+        .m{
+            margin: 10px;
+        }
+        .m div{
+            
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+    <script src="./header.js" defer></script>
+</head>
+<body >
+    <h1 style="align-self: center;">TIC TAC TOE</h1>
+    <div class="main">
+    <div class="l">Player 1
+        <div>Score: <div></div></div>
+    </div>
+    <div class="m">BOARD
+
+    </div>
+    <div class="r">Player 1
+        <div>Score: <div></div></div>
+    </div>
+    </div>
+</body>
+</html>
